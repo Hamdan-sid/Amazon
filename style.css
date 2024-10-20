@@ -1,0 +1,249 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: border-box;
+}
+/** navbar **/
+
+.navbar{
+    height: 60px;
+    background-color: black;
+    color: white ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+    padding-bottom: 20px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("Amazon-Logo-31.jpg");
+    height: 55px;
+    width: 100%;
+    background-size: cover;
+    
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.Deliver{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 12px;
+}
+.nav-second{
+    font-size: 1rem;
+    margin-right: 5px;
+}
+.add-icon{
+    display: flex;
+    align-items: center;
+}
+.nav-search{
+    display: flex;
+    width: 600px;
+    background-color: orange;
+    height: 40px;
+    border-radius: 2px;
+
+}
+.option{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+.search{
+    width: 510px ;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 13px;
+}
+.nav-search :hover{
+    border: 2px solid orange;
+}
+.span-hello{
+    font-size: 0.70rem ;
+}
+.nav-accounts{
+    font-weight: 700;
+    font-size: 1rem;
+}
+.return{
+    font-size: 0.70rem;
+}
+.orders{
+    font-weight: 700;
+    font-size: 1rem;
+}
+.cart{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.nav-cart{
+    display: flex;
+    height: 45px;
+    align-items: center;
+}
+.nav-cart i{
+    font-size: 27px;
+    font-weight: 700;
+}
+/** option panel**/
+
+.panel{
+    height: 40px;
+    display: flex;
+    background-color: #0f1111;
+    color: white;
+    align-items: center;
+}
+.panel-all{
+    padding-left: 10px;
+}
+.panel-opt{
+    display: flex ;
+    width: 800px ;
+    justify-content: space-evenly;
+}
+.corner-panel{
+    padding-left: 190px;
+    font-size: large;
+    font-weight: 670;
+}
+/** hero section **/
+
+.hero-section{
+    background-image: url("hero.section.jpg");
+    height: 400px ;
+    background-size: cover;
+}
+/** shop section **/
+
+.shop-section{
+    display: flex;
+    background-color: rgb(248, 239, 233);
+    justify-content: space-evenly;
+}
+.box{
+    width: 20%;
+    height: 300px;
+    border: 2px solid rgb(193, 192, 192);
+    padding: 20px 0px 15px;
+    margin-top: 50px;
+}
+.box-img{
+    height: 220px;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    color: rgb(94, 68, 68);
+    font-weight: 400;
+}
+.heading{
+    color: rgb(73, 60, 60);
+}
+.second-shop{
+    display: flex;
+    background-color: rgb(248, 239, 233);
+    justify-content: space-evenly;
+}
+/** Footer **/
+
+.end{
+    margin-top: 20px;
+}
+
+.foot-panel1{
+    background-color:#37475a ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.7rem;
+    height: 50px;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    color: #dddddd;
+    margin-top: 10px;
+    font-size: 0.75rem;
+
+}
+.head-f{
+    font-size: 1rem;
+    color: white;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: white;
+    border: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel3{
+    background-color: #131A22;
+    height: 250px;
+    display: block;
+    
+}
+.first{
+    display: flex;
+    justify-content: space-evenly;
+}
+.second{
+    display: flex;
+    justify-content: space-evenly;
+}
+#info-text{
+    font-size: 0.6rem;
+}
+.foot-panel4{
+    height: 80px;
+    background-color: #0f1111;
+    color: white;
+    font-size: small;
+    padding-top: 20px;
+   display: flex;
+   justify-content: center;
+
+
+}
+.panel-4a{
+    color: white;
+    text-decoration: none;   
+}
+.last-a{
+    padding-left: 10px;
+}
+.foot-panel2 :hover{
+    text-decoration: underline;
+}
+.foot-panel4 :hover{
+    text-decoration: underline;
+}
